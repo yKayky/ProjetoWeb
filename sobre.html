@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +11,12 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
   <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="Imagens/logo.svg" alt=""></a>
+    <a class="navbar-brand" href="index.html">
+      <img src="Imagens/logo.svg" height="40">
+    </a>
 
     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
       <span class="navbar-toggler-icon"></span>
@@ -25,23 +28,63 @@
         <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
         <li class="nav-item"><a class="nav-link" href="listagem.html">Produtos</a></li>
         <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
-        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link active fw-bold" href="sobre.html">Sobre</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="container mt-5">
-  <h2>Sobre</h2>
+<!-- CONTEÚDO -->
+<div class="container mt-5 pt-5">
 
-  <div class="alert alert-info">
-    Loja especializada em camisas esportivas premium.
+  <!-- HERO SOBRE -->
+  <div class="text-center mb-5">
+    <h1 class="fw-bold">Mais que camisas. Identidade.</h1>
+    <p class="text-muted">Conectamos você ao seu time através de estilo e qualidade.</p>
   </div>
 
-  <p>
-    Trabalhamos com os maiores clubes do mundo trazendo qualidade e estilo.
-  </p>
-</div>
+  <!-- CARDS -->
+  <div class="row g-4 mb-5">
 
+    <div class="col-md-4">
+      <div class="card shadow-sm p-3 text-center">
+        <h5 class="fw-bold">Qualidade</h5>
+        <p class="text-muted">Produtos premium com acabamento de alto nível.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm p-3 text-center">
+        <h5 class="fw-bold">Autenticidade</h5>
+        <p class="text-muted">Camisas dos maiores clubes do mundo.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm p-3 text-center">
+        <h5 class="fw-bold">Estilo</h5>
+        <p class="text-muted">Vista seu time dentro e fora de campo.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- TEXTO -->
+  <div class="card shadow-sm p-4">
+    <p>
+      Somos uma loja especializada em camisas esportivas, focada em oferecer produtos de alta qualidade para quem vive o futebol de verdade.
+    </p>
+
+    <p>
+      Nosso objetivo é levar até você as camisas mais icônicas do futebol mundial, unindo conforto, estilo e paixão pelo esporte.
+    </p>
+
+    <p class="fw-bold">
+      Aqui, você não compra apenas uma camisa — você veste sua história.
+    </p>
+  </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

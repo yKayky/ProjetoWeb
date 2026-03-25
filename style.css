@@ -34,3 +34,7 @@ body {
 .btn {
   border-radius: 20px;
 }
+
+td img{
+  width: 40px;
+}
